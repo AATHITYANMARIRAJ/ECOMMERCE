@@ -1,0 +1,131 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    width: fit-content;
+    text-align: center;
+    background-color: aliceblue;
+    position: sticky;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .number{
+    width: 50px;
+  }
+  
+  .sample{
+    width: 100px;
+    padding-left: 50px;
+  }
+  .order_summary{
+    width: 250px;
+    position: sticky;
+  }
+  
+
+.pcard{
+  display:flex;
+  text-align: center;
+  justify-content: left;
+  padding: 90px 0 90px 0;
+  background-image: url('https://media.istockphoto.com/id/1294603953/vector/abstract-black-stripes-diagonal-background.jpg?s=612x612&w=0&k=20&c=nQZHTk-o97cNVqWnUe8BJg0A5jQG0tqylquzbt9YtcQ=');
+  padding-left: 40px;
+  
+}
+
+.scard{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 90px 0 90px 0;
+  padding-left: 40px;
+}
+.main1{
+  display:flex;
+  text-align: center;
+  justify-content: right;
+  padding: 90px 0 90px 0;
+  background-image: url('https://media.istockphoto.com/id/1294603953/vector/abstract-black-stripes-diagonal-background.jpg?s=612x612&w=0&k=20&c=nQZHTk-o97cNVqWnUe8BJg0A5jQG0tqylquzbt9YtcQ=');
+  padding-left: 200px;
+  padding-top: 10px;
+}
+
+  .pcard1{
+     display: flex;
+     justify-content: center;
+     height: 550px;
+     box-shadow: 11px 12px 13px rgb(207,207,207);
+     width: 1000px;
+     padding-top: 30px;
+     border: 1px solid black;
+     border-radius: 60px;
+     background-color: wheat;
+     width: 500px;
+     
+     background-color: whitesmoke;
+  }
+
+  .scard1{
+     display: flex;
+     justify-content: center;
+     box-shadow: 11px 12px 13px rgb(207,207,207);
+     width: 1000px;
+     padding-top: 30px;
+     border: 1px solid black;
+     border-radius: 60px;
+     background-color: wheat;
+     width: 500px;
+     height: 500px;
+     background-color: whitesmoke;
+  }
+  .main2{
+    display: flex;
+
+    justify-content: center;
+    height: 550px;
+    box-shadow: 11px 12px 13px rgb(207,207,207);
+    width: 1000px;
+    padding-top: 30px;
+    border: 1px solid black;
+    border-radius: 60px;
+    background-color: wheat;
+    width: 500px;
+    background-color: whitesmoke;
+ }
+
+  .pimg{
+    
+    height: 100px;
+    object-fit: cover;
+    
+  }
+
+  .head{
+    background-color: black;
+  }
